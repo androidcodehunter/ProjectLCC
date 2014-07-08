@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:paddingBottom="10dp"
+    android:paddingLeft="30dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/tv_officer_profile_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_officer_agrioffice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_officer_profile_title"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_doctor_profile"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_officer_agrioffice"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_agriofficer_profile_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_doctor_profile"
+        android:textColor="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/ib_agriofficer_profile_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_officer_profile_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="13dp"
+        android:background="@null"
+        android:src="@drawable/call_icon" />
+
+</RelativeLayout>

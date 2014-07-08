@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <Spinner
+        android:id="@+id/sp_zilla"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editable_item_arrows" />
+
+    <Spinner
+        android:id="@+id/sp_upozilla"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editable_item_arrows" />
+
+    <Spinner
+        android:id="@+id/sp_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editable_item_arrows" />
+
+    <Button
+        android:id="@+id/btn_more"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/btn_more_height"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/bt_bg_blue_half"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

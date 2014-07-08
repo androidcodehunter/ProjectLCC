@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- home screen dimension start -->
+    <dimen name="iv_photo_height">200dp</dimen>
+    <dimen name="row_width_land">276dp</dimen>
+     <dimen name="row_height_land">195dp</dimen>
+      <dimen name="row_width_port">276dp</dimen>
+     <dimen name="row_height_port">265dp</dimen>
+     
+     
+    <dimen name="btn_home_circle_width">188dp</dimen>
+    <dimen name="btn_home_circle_height">188dp</dimen>
+    <dimen name="btn_immergency_width">130dp</dimen>
+    <dimen name="btn_immergency_height">26dp</dimen>
+    <dimen name="btn_desease_info_width">145dp</dimen>
+    <dimen name="btn_desease_info_height">26dp</dimen>
+    <dimen name="btn_lcc_width">68dp</dimen>
+    <dimen name="btn_lcc_height">23dp</dimen>
+    <dimen name="btn_lcc_bottom_margin">60dp</dimen>
+    <dimen name="btn_lcc_margin_top"> 56dp</dimen>
+    <dimen name="btn_instant_service_width">83dp</dimen>
+    <dimen name="btn_instant_service_height">26dp</dimen>
+    <!-- home screen dimension end -->
+<dimen name="btn_more_height">26dp</dimen>
+</resources>

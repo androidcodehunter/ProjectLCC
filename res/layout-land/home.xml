@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/plant_tree" >
+
+    <ImageView
+        android:id="@+id/iv_user_manual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:alpha=".85"
+        android:background="@null"
+        android:src="@drawable/user_manual"
+        android:typeface="monospace" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/row_width_land"
+        android:layout_height="@dimen/row_height_land"
+        android:layout_centerInParent="true"
+        android:background="@null" >
+
+        <ImageView
+            android:id="@+id/btn_home_circle"
+            android:layout_width="@dimen/btn_home_circle_width"
+            android:layout_height="@dimen/btn_home_circle_height"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:src="@drawable/circle" />
+
+        <Button
+            android:id="@+id/btn_immergency"
+            android:layout_width="@dimen/btn_immergency_width"
+            android:layout_height="@dimen/btn_immergency_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:alpha=".85"
+            android:background="@drawable/bt_bg_gold"
+            android:text="@string/immergency"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btn_desease_info"
+            android:layout_width="@dimen/btn_desease_info_width"
+            android:layout_height="@dimen/btn_desease_info_height"
+            android:layout_centerVertical="true"
+            android:alpha=".85"
+            android:background="@drawable/bt_bg_gold"
+            android:text="@string/disease_instruction"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btn_instance_service"
+            android:layout_width="@dimen/btn_instant_service_width"
+            android:layout_height="@dimen/btn_instant_service_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:alpha=".85"
+            android:background="@drawable/bt_bg_gold"
+            android:text="@string/instant_service"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btn_lcc"
+            android:layout_width="@dimen/btn_lcc_width"
+            android:layout_height="@dimen/btn_lcc_height"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:alpha=".85"
+            android:background="@drawable/bt_bg_gold"
+            android:text="LCC"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+</RelativeLayout>

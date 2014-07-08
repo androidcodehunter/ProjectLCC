@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fill_wrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="right_tick">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/red_tick</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="fill_wrap.StyleUserManualText">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:drawableLeft">@drawable/yes</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

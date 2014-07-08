@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/menu_lcc"
+        android:title="LCC"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_instant_services"
+        android:title="@string/instant_service"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_immergency_services"
+        android:title="@string/immergency"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_disease_instruction"
+        android:title="@string/disease_instruction"
+        app:showAsAction="never"/>
+
+</menu>

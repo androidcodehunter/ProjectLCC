@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/user_manual_1"
+            style="@style/fill_wrap.StyleUserManualText" />
+
+        <TextView
+            android:id="@+id/user_manual_2"
+            style="@style/fill_wrap.StyleUserManualText" />
+
+        <TextView
+            android:id="@+id/user_manual_3"
+            style="@style/fill_wrap.StyleUserManualText" />
+
+        <TextView
+            android:id="@+id/user_manual_4"
+            style="@style/fill_wrap.StyleUserManualText" />
+
+        <TextView
+            android:id="@+id/user_manual_5"
+            style="@style/fill_wrap.StyleUserManualText" />
+
+        <TextView
+            android:id="@+id/user_manual_6"
+            style="@style/fill_wrap.StyleUserManualText" />
+
+        <TextView
+            android:id="@+id/user_manual_7"
+            style="@style/fill_wrap.StyleUserManualText" />
+
+        <TextView
+            android:id="@+id/user_manual_8"
+            style="@style/fill_wrap.StyleUserManualText" />
+
+        <TextView
+            android:id="@+id/user_manual_9"
+            style="@style/fill_wrap.StyleUserManualText" />
+
+        <TextView
+            android:id="@+id/user_manual_10"
+            style="@style/fill_wrap.StyleUserManualText" />
+
+        <TextView
+            android:id="@+id/user_manual_11"
+            style="@style/fill_wrap.StyleUserManualText" />
+    </LinearLayout>
+
+</ScrollView>
